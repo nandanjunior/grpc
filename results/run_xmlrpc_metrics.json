@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-11-11T12:49:38.846924",
+  "protocol": "XML-RPC",
+  "workflow_time": 6.141571044921875,
+  "mapreduce_time": 0.002008676528930664,
+  "userbehavior_time": 0.0019078254699707031,
+  "recommendation_time": 0.0010037422180175781,
+  "total_processing_time": 0.004920244216918945,
+  "network_overhead": 6.136650800704956,
+  "summary": {
+    "total_services": 3,
+    "avg_service_time": 0.0016400814056396484,
+    "overhead_percentage": 99.91988622811768
+  },
+  "detailed_results": {
+    "mapreduce": {
+      "play_counts": {
+        "Coldplay - S001": 2,
+        "Taylor Swift - S004": 1,
+        "Drake - S010": 2,
+        "Imagine Dragons - S002": 1
+      },
+      "processing_time": 0.002008676528930664
+    },
+    "userbehavior": {
+      "user_stats": [
+        {
+          "user_id": "U001",
+          "total_time": 420,
+          "top_artist": "Coldplay"
+        },
+        {
+          "user_id": "U002",
+          "total_time": 430,
+          "top_artist": "Taylor Swift"
+        },
+        {
+          "user_id": "U003",
+          "total_time": 250,
+          "top_artist": "Drake"
+        },
+        {
+          "user_id": "U004",
+          "total_time": 200,
+          "top_artist": "Imagine Dragons"
+        }
+      ],
+      "top_users": [
+        "U002",
+        "U001",
+        "U003",
+        "U004"
+      ],
+      "processing_time": 0.0019078254699707031
+    },
+    "recommendation": {
+      "trending_songs": [
+        "Coldplay - S001",
+        "Drake - S010",
+        "Taylor Swift - S004",
+        "Imagine Dragons - S002"
+      ],
+      "recommendations": {
+        "U001": [
+          "Drake - S010",
+          "Taylor Swift - S004",
+          "Imagine Dragons - S002"
+        ],
+        "U002": [
+          "Coldplay - S001",
+          "Drake - S010",
+          "Imagine Dragons - S002"
+        ],
+        "U003": [
+          "Coldplay - S001",
+          "Taylor Swift - S004",
+          "Imagine Dragons - S002"
+        ],
+        "U004": [
+          "Coldplay - S001",
+          "Drake - S010",
+          "Taylor Swift - S004"
+        ]
+      },
+      "processing_time": 0.0010037422180175781
+    }
+  }
+}
